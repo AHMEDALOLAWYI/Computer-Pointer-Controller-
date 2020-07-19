@@ -1,15 +1,29 @@
 # Computer Pointer Controller
+In this project three different models were used from OpenVINO model zoo namely the face detection, Head Pose Estimation and Facial landmark Detection. Using these models it will be possible to contorll the mouse pointer based on the estimated pose of the head and the direction the eyes are moving into . The application work by uplaoding a video or using the camera as an input and then it starts moving the pointer contorller based on estimated head pose and eyes direction. The following diagram explains the project flow that was followed to run the application and obtainn results. 
 
-*TODO:* Write a short introduction to your project
 
 ## Project Set Up and Installation
 *TODO:* Explain the setup procedures to run your project. For instance, this can include your project directory structure, the models you need to download and where to place them etc. Also include details about how to install the dependencies your project requires.
+The project will run by satsifiying the following requirments: 
+
 
 ## Demo
 *TODO:* Explain how to run a basic demo of your model.
 
 ## Documentation
-*TODO:* Include any documentation that users might need to better understand your project code. For instance, this is a good place to explain the command line arguments that your project supports.
+The models used are pretrained models from the model zoo and each model used for this project has its own documenation which will refer it in a separete link below the model name:
+
+1.Gaze Estimation Model 
+https://docs.openvinotoolkit.org/latest/omz_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html
+
+2.Head Pose Estimation Model 
+https://docs.openvinotoolkit.org/latest/omz_models_intel_head_pose_estimation_adas_0001_description_head_pose_estimation_adas_0001.html
+
+3.Landmark Detection Model 
+https://docs.openvinotoolkit.org/latest/omz_models_intel_landmarks_regression_retail_0009_description_landmarks_regression_retail_0009.html
+
+4.Face Detection Mdoel 
+https://docs.openvinotoolkit.org/latest/omz_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html
 
 ## Benchmarks
 *TODO:* Include the benchmark results of running your model on multiple hardwares and multiple model precisions. Your benchmarks can include: model loading time, input/output processing time, model inference time etc.
