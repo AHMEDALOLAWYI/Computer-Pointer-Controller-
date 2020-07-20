@@ -7,6 +7,11 @@ In this project three different models were used from OpenVINO model zoo namely 
 ## Project Set Up and Installation
 *TODO:* Explain the setup procedures to run your project. For instance, this can include your project directory structure, the models you need to download and where to place them etc. Also include details about how to install the dependencies your project requires.
 The project will run by satsifiying the following requirments: 
+The OpenVINO toolkit is used to run the application and Intel provides detail documenation about the tool on the website as well as many video on youtube that are uplaoded regularly. Depending on the device being used there is an installation procedure and setup : 
+
+https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_linux.html
+
+In case of my application running I downloaded OpenVINO on a virtualbox that has built in ubuntu along with 
 
 
 ## Demo
