@@ -16,7 +16,9 @@ Following downloading the the file the steps below were run to complete installa
 https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_linux.html
 
 Initialze the Openvino environment on on local machine by typing the following code line 
+
   soruce /opt/intel/openvino/bin/setupvars.sh 
+  
 Locate the folder location containing the files 
 
 ## Demo
