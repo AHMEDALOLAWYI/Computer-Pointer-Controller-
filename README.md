@@ -1,5 +1,6 @@
 # Computer Pointer Controller
-In this project three different models were used from OpenVINO model zoo namely the face detection, Head Pose Estimation and Facial landmark Detection. Using these models it will be possible to contorll the mouse pointer based on the estimated pose of the head and the direction the eyes are moving into . The application work by uplaoding a video or using the camera as an input and then it starts moving the pointer contorller based on estimated head pose and eyes direction. The following diagram explains the project flow that was followed to run the application and obtainn results. 
+In this project three different models were used from OpenVINO model zoo namely the face detection, Head Pose Estimation and Facial landmark Detection. Using these models it will be possible to contorll the mouse pointer based on the estimated pose of the head and the direction the eyes are moving into . The application work by uplaoding a video or using the camera as an input and then it starts moving the pointer contorller based on estimated head pose and eyes direction. The following diagram explains the project flow that was followed to run the application and obtainn results. https://user-images.githubusercontent.com/46440753/87903361-7c597800-ca64-11ea-819c-6c3cfe21dc38.JPG
+
 
 
 ## Project Set Up and Installation
