@@ -9,8 +9,10 @@ In this project three different models were used from OpenVINO model zoo namely 
 The project will run by satsifiying the following requirments: 
 The OpenVINO toolkit is used to run the application and Intel provides detail documenation about the tool on the website as well as many video on youtube that are uplaoded regularly. Depending on the device being used there is an installation procedure explained on the intel website . Please click the link below to refer to documenations for each operating system: 
 https://docs.openvinotoolkit.org/latest/index.html
+
 In case of my application running I downloaded OpenVINO on a virtualbox that has built in ubuntu along with OpenCV 3.4 , CMake 2.8 , Python 3.5 and GNU Compiler Collection 3.4. 
 Following downloading the the file the steps below were run to complete installation on local machine : 
+
 https://docs.openvinotoolkit.org/latest/openvino_docs_install_guides_installing_openvino_linux.html
 
 Initialze the Openvino environment on on local machine by typing the following code line 
