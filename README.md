@@ -46,6 +46,15 @@ https://docs.openvinotoolkit.org/latest/omz_models_intel_face_detection_adas_bin
 
 ## Benchmarks
 *TODO:* Include the benchmark results of running your model on multiple hardwares and multiple model precisions. Your benchmarks can include: model loading time, input/output processing time, model inference time etc.
+The results provided for this section of the project is collected based on running multiple model percisions on CPU and are recorded as following: 
+
+1. Model Percision : FP32  
+   Total inference time in seconds 65  and time for loading the model is 1.7 
+2. Model Percision : FP16 
+   Total inference time in seconds 79 and time for loading the mode is 1.3
+On the other hand the following results were obtained for running the model on GPU and are recorded as following: 
+
+
 
 ## Results
 *TODO:* Discuss the benchmark results and explain why you are getting the results you are getting. For instance, explain why there is difference in inference time for FP32, FP16 and INT8 models.
