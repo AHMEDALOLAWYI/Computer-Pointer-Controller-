@@ -23,7 +23,7 @@ Initialze the Openvino environment on on local machine by typing the following c
 Locate the folder location containing the files 
 
 ## Demo
-*TODO:* Explain how to run a basic demo of your model.
+The following link provided video explains how the demo was run and th result of the application https://1drv.ms/v/s!AvVQna7ygckDhD60OQZeRtbUPjRE 
 
 ## Documentation
 The models used are pretrained models from the model zoo and each model used for this project has its own documenation which will refer it in a separete link below the model name:
