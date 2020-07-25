@@ -45,15 +45,23 @@ https://docs.openvinotoolkit.org/latest/omz_models_intel_landmarks_regression_re
 https://docs.openvinotoolkit.org/latest/omz_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html
 
 ## Benchmarks
-*TODO:* Include the benchmark results of running your model on multiple hardwares and multiple model precisions. Your benchmarks can include: model loading time, input/output processing time, model inference time etc.
-The results provided for this section of the project is collected based on running multiple model percisions on CPU and are recorded as following: 
+
+The results provided for this section of the project is collected based on running multiple model percisions on CPU and GPU for an INTEL with CPU I5-6500 results are
+recorded as following: 
 
 1. Model Percision : FP32  
    Total inference time in seconds 65  and time for loading the model is 1.7 
 2. Model Percision : FP16 
-   Total inference time in seconds 79 and time for loading the mode is 1.3
+   Total inference time in seconds 79 and time for loading the model is 1.3
+
 On the other hand the following results were obtained for running the model on GPU and are recorded as following: 
 
+1. Model Percision : FP32 
+  Total inference time in seconds 67 and time for loading the model is 54 
+2. Model Percision : FP16 
+  Total inference time in seconds 73 and time for loading the model is 51 
+  
+Through reading the results above it is clear that it took longer total inference time for both CPU and GPU for a model percision of FP16 while it took less time to load  the model for FP16. Also, based on the results for a model percision of CPU FP32 it has tootal leess inference time in seconds than a GPU with FP32 . However, the model accuracy will decrease as a result of decreasing the the percision. The loading time is always less for a model percion of FP16 . 
 
 
 ## Results
