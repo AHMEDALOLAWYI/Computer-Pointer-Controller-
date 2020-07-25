@@ -44,7 +44,7 @@ https://docs.openvinotoolkit.org/latest/omz_models_intel_landmarks_regression_re
 4.Face Detection Mdoel 
 https://docs.openvinotoolkit.org/latest/omz_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html
 
-## Benchmarks
+## Benchmarks and Results 
 
 The results provided for this section of the project is collected based on running multiple model percisions on CPU and GPU for an INTEL with CPU I5-6500 results are
 recorded as following: 
@@ -63,15 +63,14 @@ On the other hand the following results were obtained for running the model on G
   
 Through reading the results above it is clear that it took longer total inference time for both CPU and GPU for a model percision of FP16 while it took less time to load  the model for FP16. Also, based on the results for a model percision of CPU FP32 it has tootal leess inference time in seconds than a GPU with FP32 . However, the model accuracy will decrease as a result of decreasing the the percision. The loading time is always less for a model percion of FP16 . 
 
+Finally the following results were obtained for INT8: 
 
-## Results
-*TODO:* Discuss the benchmark results and explain why you are getting the results you are getting. For instance, explain why there is difference in inference time for FP32, FP16 and INT8 models.
+CPU 
+Total inference time: 77 Time for loading the model : 1.2 
 
-## Stand Out Suggestions
-This is where you can provide information about the stand out suggestions that you have attempted.
+GPU
+Totoal inference time: 73 Time for loading the model : 50.3 
 
-### Async Inference
-If you have used Async Inference in your code, benchmark the results and explain its effects on power and performance of your project.
-
+By anayalising the results obtained for  INT8 it shows that it has less loading time. 
 ### Edge Cases
-There will be certain situations that will break your inference flow. For instance, lighting changes or multiple people in the frame. Explain some of the edge cases you encountered in your project and how you solved them to make your project more robust.
+Multiple faces detection do not function using the application so if there are many faces in a video the application will only detect one face and will show the result for that particular face . 
