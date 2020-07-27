@@ -78,6 +78,7 @@ GPU
 Total inference time: 73 Time for loading the model : 50.3 
 
 ![](loading%20time%20FP32.png)
+![](inference%20time%20cpu%20and%20GPU%20FP32.png)
 
 By anayalising the results obtained for  INT8 it shows that it has less loading time. 
 ### Edge Cases
