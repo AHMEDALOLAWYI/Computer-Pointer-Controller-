@@ -1,9 +1,9 @@
 '''Script to run the application'''
 
-import cv2
+
 import numpy as np
 import helpers
-
+import cv2
 
 from modelfacelandmark import FaceLandmarks
 from modelgaze import Gaze 
@@ -26,15 +26,15 @@ def build_argparser():
     
     
 
- 
-    parser.add_argument("-f", "--facedetector_model", required=False, type=str, default=None,
-                        help=" facedetector model model path.")
-    parser.add_argument("-lm", "--facelm_model", required=False, type=str, default=None,
-                        help="face landmarks detector model path.")
     parser.add_argument("-hp", "--headpose_model", required=False, type=str, default=None,
                         help="xam path to file with a trained head pose detector model.")
     parser.add_argument("-g", "--gaze_model", required=False, type=str, default=None,
                         help="xmal path to file with a trained gaze detector model.")
+    parser.add_argument("-f", "--facedetector_model", required=False, type=str, default=None,
+                        help=" facedetector model model path.")
+    parser.add_argument("-lm", "--facelm_model", required=False, type=str, default=None,
+                        help="face landmarks detector model path.")
+   
     parser.add_argument("-sf", "--show_face", type=bool, default=False,
                         help="Draw face bounding box")
 
