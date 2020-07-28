@@ -7,20 +7,28 @@ In this project three different models were used from OpenVINO model zoo namely 
 *TODO:* Explain the setup procedures to run your project. For instance, this can include your project directory structure, the models you need to download and where to place them etc. Also include details about how to install the dependencies your project requires.
 In order to view the project strcutre the following screenshot was taken
 ![](tree.PNG)
+
 All te source files exist in the src folder 
-    1. headposemodel.py 
+
+1. headposemodel.py 
        The input to the mode is the detected face as this is preprocessed and inference is performed on it to detect head position. 
-    2. input_feeder.py 
+
+2. input_feeder.py 
        This file task is to return frames on by one through initializing video capture as per the user agreement and this is contained in    inputFeeder class 
-    3.  main.py 
+  
+3.  main.py 
        This file is used to run the application. 
-    4. modelfacedetector.py 
+   
+4. modelfacedetector.py 
        postporcocessing the output is done through this file through prerforming inference on the detected face. 
-    5. modelfacelandmark.py 
+
+5. modelfacelandmark.py 
        postporcessing the outputs is done via taking the detected face as an input and performing inference on it. 
-    6. modelgaze.py 
+
+6. modelgaze.py 
        Take the left eye, right eye, head pose angles as inputs then these are preprocessed and inference is performed for the prediction of gaze vector by postprocessing the outputs. 
-    7. Mouse_controller.py
+       
+7. Mouse_controller.py
        Contains MouseController class which take x, y coordinates vlue, percisions, speed and based on these pararmeteres the mouse pointer is controlled. 
        
 
