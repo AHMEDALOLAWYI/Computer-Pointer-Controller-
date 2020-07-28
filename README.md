@@ -42,7 +42,7 @@ The models used are pre-trained models from the model zoo and each model used fo
 1.Gaze Estimation Model 
 https://docs.openvinotoolkit.org/latest/omz_models_intel_gaze_estimation_adas_0002_description_gaze_estimation_adas_0002.html
 
-2.Head Pose Estimation Model 
+2.Head Pose Estimation Model gaze 
 https://docs.openvinotoolkit.org/latest/omz_models_intel_head_pose_estimation_adas_0001_description_head_pose_estimation_adas_0001.html
 
 3.Landmark Detection Model 
@@ -51,6 +51,15 @@ https://docs.openvinotoolkit.org/latest/omz_models_intel_landmarks_regression_re
 4.Face Detection Model 
 https://docs.openvinotoolkit.org/latest/omz_models_intel_face_detection_adas_binary_0001_description_face_detection_adas_binary_0001.html
 
+## Command Line Arguments for Running the app 
+1. -h: Provides all information related comman line arguments 
+2. -hp (requried) Head Pose estimation model's xml file. 
+3. -g (required) Gaze estimation model's xml file. 
+4. -f (required) Face detection model's xml file. 
+5. -lm (required) Face landmarks model's xml file 
+6. -i (required) Allocate video location or select input video from webcam 
+7. -d (optional) Specify target device such as CPU, GPU and FPGA 
+8. -pt (optional) Specify the probability threshold . 
 ## Benchmarks and Results 
 The results provided for this section of the project is collected based on running multiple model precision on CPU and GPU for an INTEL with CPU I5-6500 results are
 recorded as following: 
