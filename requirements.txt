@@ -6,4 +6,4 @@ virtualenv==16.7.9
 opencv-python==4.2.0.34
 pyautogui==0.9.50
 numpy==1.17.4
-Pillow==6.2.1
+Pillow==8.1.1
